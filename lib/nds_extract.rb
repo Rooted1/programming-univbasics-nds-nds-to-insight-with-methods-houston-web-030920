@@ -14,7 +14,7 @@ def gross_for_director(director_data)
     row_index += 1 
   end 
   
-  p total_gross_per_director
+  p director_data
 end
 
 #------------------------------------
@@ -36,5 +36,5 @@ def directors_totals(nds)
     row_index += 1 
   end 
   
-  p result
+  p nds
 end
