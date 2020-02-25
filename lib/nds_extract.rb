@@ -26,5 +26,13 @@ end
 
 def directors_totals(nds)
   result = {}
-  nil
+  
+  row_index = 0 
+  
+  while row_index < nds.count do 
+    
+    result["#{nds[row_index][:name]}"] = gross_for_director(nds)
+    
+    row_index += 1 
+  end 
 end
